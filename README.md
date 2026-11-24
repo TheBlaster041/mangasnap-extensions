@@ -36,12 +36,13 @@ so a build output cannot be committed by accident.
 
 ## Extensions
 
-| Source id | Name | Domain | Status |
+| Source id | Name | Domain | Release |
 |---|---|---|---|
-| `ehentai` | E-Hentai | e-hentai.org | not released yet |
+| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.0.0](https://github.com/TheBlaster041/mangasnap-extensions/releases/tag/ehentai-v1.0.0) |
 
-`e-hentai` is the first extension packaged from the template (Phase 4 of the app's `PLAN.md`). Until
-it ships, MangaSnap can only use the template's demo source, which exists to prove the transport.
+The `ehentai` APK is discovered, trusted and bound by a release MangaSnap build, but the app still
+bundles its own identical definition and a bundled source wins over an extension with the same id,
+so it does not drive browsing yet. Phase 5 of the app's `PLAN.md` removes the bundled definition.
 
 ## Why the app is separate
 
