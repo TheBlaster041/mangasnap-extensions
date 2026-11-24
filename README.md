@@ -40,9 +40,22 @@ so a build output cannot be committed by accident.
 |---|---|---|---|
 | `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.0.0](https://github.com/TheBlaster041/mangasnap-extensions/releases/tag/ehentai-v1.0.0) |
 
-The `ehentai` APK is discovered, trusted and bound by a release MangaSnap build, but the app still
-bundles its own identical definition and a bundled source wins over an extension with the same id,
-so it does not drive browsing yet. Phase 5 of the app's `PLAN.md` removes the bundled definition.
+The app ships no site code, so this APK is the only thing that provides `ehentai`: install it and the
+site appears in Browse, uninstall it and the site is gone.
+
+## In-app download (`extensions.json`)
+
+`extensions.json` is the index MangaSnap's **Extensions** screen reads (Profile → Extensions, or the
+"Browse as" sheet → Manage extensions). Each entry carries the release asset URL, its `sizeBytes`
+and the APK's `sha256`; the app verifies that digest before it hands the file to the system
+installer, so a truncated or replaced download installs nothing.
+
+Add an entry when a release is published, and bump `versionCode` in the extension repo at the same
+time — Android rejects an install that does not raise it.
+
+This repository is private, so a phone cannot fetch this file or the release asset without
+credentials. The screen therefore also offers **Install from file** (an APK the user already has),
+and its list URL is editable, so any public or LAN mirror of this index works without an app update.
 
 ## Why the app is separate
 
