@@ -4,11 +4,11 @@
     {
       "id": "ehentai",
       "name": "E-Hentai",
-      "versionCode": 5,
-      "versionName": "1.1.3",
-      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.1.3/ehentai-v1.1.3-5.apk",
-      "sha256": "f17d5ed0c7dc466502cd0660ceb65221b0c6b419818fecfd97705e8e014c1036",
-      "sizeBytes": 1455498,
+      "versionCode": 6,
+      "versionName": "1.1.4",
+      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.1.4/ehentai-v1.1.4-6.apk",
+      "sha256": "8389482777d3de1a270e28d99b5e5f95e35e6b94717969add166167db541b285",
+      "sizeBytes": 6304863,
       "summary": "Galleries, search, favorites and downloads from e-hentai.org.",
       "sourceIds": [
         "ehentai"
