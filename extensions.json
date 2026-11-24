@@ -6,7 +6,7 @@
       "name": "E-Hentai",
       "versionCode": 1,
       "versionName": "1.0.0",
-      "apkUrl": "https://github.com/TheBlaster041/mangasnap-extensions/releases/download/ehentai-v1.0.0/ehentai-v1.0.0-1.apk",
+      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.0.0/ehentai-v1.0.0-1.apk",
       "sha256": "f7111177e4f83be6720ed1c5e01911eda07057fd20f0f16fbeb27d3664c097b4",
       "sizeBytes": 1436716,
       "summary": "Galleries, search, favorites and downloads from e-hentai.org.",

@@ -2,7 +2,7 @@
 
 Signed release APKs for MangaSnap's definition-driven sources. This repository holds releases and
 their documentation only; the source of each extension lives in its own repository, scaffolded from
-[`mangasnap-extension-template`](https://github.com/TheBlaster041/mangasnap-extension-template).
+[`mangasnap-extension-template`](https://github.com/mangasnap/mangasnap-extension-template).
 
 An extension APK is service-only: no launcher icon, no UI, no storage. MangaSnap binds its service,
 asks it in JSON, and streams page images into files the app owns. Installing an extension never
@@ -38,7 +38,7 @@ so a build output cannot be committed by accident.
 
 | Source id | Name | Domain | Release |
 |---|---|---|---|
-| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.0.0](https://github.com/TheBlaster041/mangasnap-extensions/releases/tag/ehentai-v1.0.0) |
+| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.0.0](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.0.0) |
 
 The app ships no site code, so this APK is the only thing that provides `ehentai`: install it and the
 site appears in Browse, uninstall it and the site is gone.
