@@ -2,7 +2,7 @@
 
 Signed release APKs for MangaSnap's definition-driven sources. This repository holds releases and
 their documentation only; the source of each extension lives in its own repository, scaffolded from
-[`mangasnap-extension-template`](https://github.com/mangasnap/mangasnap-extension-template).
+`mangasnap-extension-template` (private).
 
 An extension APK is service-only: no launcher icon, no UI, no storage. MangaSnap binds its service,
 asks it in JSON, and streams page images into files the app owns. Installing an extension never
@@ -64,4 +64,5 @@ is editable, so a mirror of this index works without an app update.
 - `mangasnap-extension-template` — the per-site repository template.
 - this repository — the built artifacts.
 
-All four are public, so an installed app can reach the index and the APKs with no token.
+Only this repository is public, because an installed app must fetch the index and the APKs without a
+token. The app, the SDK and each extension's source stay private.
