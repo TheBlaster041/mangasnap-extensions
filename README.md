@@ -53,9 +53,14 @@ installer, so a truncated or replaced download installs nothing.
 Add an entry when a release is published, and bump `versionCode` in the extension repo at the same
 time — Android rejects an install that does not raise it.
 
-The index and the release assets are public, so a phone fetches both without credentials: this is
-the default URL the app ships with. The screen also offers **Install from file**, and its list URL
-is editable, so a mirror of this index works without an app update.
+The index and the release assets are public, so a phone fetches both without credentials. The
+default URL the app ships with is the raw file:
+
+    https://raw.githubusercontent.com/mangasnap/mangasnap-extensions/main/extensions.json
+
+GitHub Pages is not used: it builds through Actions, and Actions is disabled for this organization.
+The screen also offers **Install from file**, and its list URL is editable, so a mirror of this
+index works without an app update.
 
 ## Why the app is separate
 
