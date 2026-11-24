@@ -1,0 +1,16 @@
+# Build outputs are attachments, not history: an APK in git is unversioned binary weight that cannot
+# be diffed and cannot be revoked. Releases carry them.
+*.apk
+*.aab
+*.iml
+.idea/
+.gradle/
+build/
+**/build/
+local.properties
+
+# Signing material.
+keystore.properties
+*.keystore
+*.jks
+.env
