@@ -53,9 +53,9 @@ installer, so a truncated or replaced download installs nothing.
 Add an entry when a release is published, and bump `versionCode` in the extension repo at the same
 time — Android rejects an install that does not raise it.
 
-This repository is private, so a phone cannot fetch this file or the release asset without
-credentials. The screen therefore also offers **Install from file** (an APK the user already has),
-and its list URL is editable, so any public or LAN mirror of this index works without an app update.
+The index and the release assets are public, so a phone fetches both without credentials: this is
+the default URL the app ships with. The screen also offers **Install from file**, and its list URL
+is editable, so a mirror of this index works without an app update.
 
 ## Why the app is separate
 
@@ -64,4 +64,4 @@ and its list URL is editable, so any public or LAN mirror of this index works wi
 - `mangasnap-extension-template` — the per-site repository template.
 - this repository — the built artifacts.
 
-All four are private.
+All four are public, so an installed app can reach the index and the APKs with no token.
