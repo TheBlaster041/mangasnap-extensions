@@ -27,7 +27,7 @@ install. Definitions without a version bump cannot reach a device.
 One release per extension version:
 
 - tag `<source-id>-v<versionName>` (for example `ehentai-v1.0.0`)
-- asset `<source-id>-v<versionName>-<versionCode>.apk`
+- asset a short name derived from the source and version (`eh170.apk`, `hf115.apk`)
 - release notes list the source id, `versionCode`/`versionName`, the SDK version it was built
   against, and any definition change that alters what the app receives.
 
@@ -38,10 +38,11 @@ so a build output cannot be committed by accident.
 
 | Source id | Name | Domain | Release |
 |---|---|---|---|
-| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.0.0](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.0.0) |
+| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.7.0](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.7.0) |
+| `hentaifox` | HentaiFox | hentaifox.com | [hentaifox-v1.15](https://github.com/mangasnap/mangasnap-extensions/releases/tag/hentaifox-v1.15) |
 
-The app ships no site code, so this APK is the only thing that provides `ehentai`: install it and the
-site appears in Browse, uninstall it and the site is gone.
+The app ships no site code, so these APKs are the only thing that provides each site: install one and
+it appears in Browse, uninstall it and it is gone.
 
 ## In-app download (`extensions.json`)
 
