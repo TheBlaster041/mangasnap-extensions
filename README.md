@@ -38,8 +38,8 @@ so a build output cannot be committed by accident.
 
 | Source id | Name | Domain | Release |
 |---|---|---|---|
-| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.9.0](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.9.0) |
-| `hentaifox` | HentaiFox | hentaifox.com | [hentaifox-v1.16](https://github.com/mangasnap/mangasnap-extensions/releases/tag/hentaifox-v1.16) |
+| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.9.1](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.9.1) |
+| `hentaifox` | HentaiFox | hentaifox.com | [hentaifox-v1.17](https://github.com/mangasnap/mangasnap-extensions/releases/tag/hentaifox-v1.17) |
 
 The app ships no site code, so these APKs are the only thing that provides each site: install one and
 it appears in Browse, uninstall it and it is gone.
