@@ -4,11 +4,11 @@
     {
       "id": "ehentai",
       "name": "E-Hentai",
-      "versionCode": 14,
-      "versionName": "1.8.0",
-      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.8.0/eh180.apk",
-      "sha256": "f55d90c54691f510978c4b2185d961c249275f27bf55329b21a23ce19ac72934",
-      "sizeBytes": 1454326,
+      "versionCode": 15,
+      "versionName": "1.9.0",
+      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.9.0/eh190.apk",
+      "sha256": "09bd30a4ab8bcebf219bc7075def53c58e02148879e0b3f7601e2acb8df350b6",
+      "sizeBytes": 1456938,
       "summary": "Galleries, search, favorites, the complete tag directory and downloads from e-hentai.org.",
       "sourceIds": [
         "ehentai"
@@ -17,11 +17,11 @@
     {
       "id": "hentaifox",
       "name": "HentaiFox",
-      "versionCode": 16,
-      "versionName": "1.15",
-      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.15/hf115.apk",
-      "sha256": "d33f45571d6f2c3d3084ced03ca276b6e493a6ee7e1b29abed72a3068a458ba5",
-      "sizeBytes": 1596240,
+      "versionCode": 17,
+      "versionName": "1.16",
+      "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.16/hf116.apk",
+      "sha256": "28f15b8e902c5a2026b9750289e0bd0ac1b54796651f0ae62b1f284a92c4d26a",
+      "sizeBytes": 1599420,
       "summary": "Galleries, search, the ranked shelf and the full tag directory from hentaifox.com.",
       "sourceIds": [
         "hentaifox"
