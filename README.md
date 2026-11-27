@@ -59,7 +59,8 @@ default URL the app ships with is the raw file:
 
     https://raw.githubusercontent.com/mangasnap/mangasnap-extensions/main/extensions.json
 
-GitHub Pages is not used: it builds through Actions, and Actions is disabled for this organization.
+The `pages` workflow publishes the same repository root at the Pages URL on every push to `main`;
+the raw URL is what the app defaults to.
 The screen also offers **Install from file**, and its list URL is editable, so a mirror of this
 index works without an app update.
 
