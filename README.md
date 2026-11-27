@@ -21,8 +21,8 @@ signer is shown with its computed fingerprint so it can be added deliberately. T
 
 One release per extension version:
 
-- tag `<source-id>-v<versionName>` (for example `ehentai-v1.9.2`)
-- asset `<source-id>-<versionName>.msext` (for example `ehentai-1.9.2.msext`)
+- tag `<source-id>-v<versionName>` (for example `ehentai-v1.9.3`)
+- asset `<source-id>-<versionName>.msext` (for example `ehentai-1.9.3.msext`)
 - release notes list the source id, `versionName`, the SDK version it was built against, and any
   definition change that alters what the app receives.
 
@@ -33,8 +33,8 @@ so a build output cannot be committed by accident.
 
 | Source id | Name | Domain | Release |
 |---|---|---|---|
-| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.9.2](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.9.2) |
-| `hentaifox` | HentaiFox | hentaifox.com | [hentaifox-v1.18](https://github.com/mangasnap/mangasnap-extensions/releases/tag/hentaifox-v1.18) |
+| `ehentai` | E-Hentai | e-hentai.org | [ehentai-v1.9.3](https://github.com/mangasnap/mangasnap-extensions/releases/tag/ehentai-v1.9.3) |
+| `hentaifox` | HentaiFox | hentaifox.com | [hentaifox-v1.18.1](https://github.com/mangasnap/mangasnap-extensions/releases/tag/hentaifox-v1.18.1) |
 
 The app ships no site code, so these bundles are the only thing that provides each site: install one
 and it appears in Browse, remove it and it is gone. A Kotlin backend is compiled into `backend.dex`
