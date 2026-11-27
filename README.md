@@ -2,7 +2,7 @@
 
 Signed `.msext` bundles for MangaSnap's definition-driven sources. This repository holds releases and
 their documentation only; the source of each extension lives in its own repository, scaffolded from
-`mangasnap-extension-template` (private).
+`mangasnap-bundle-template` (private).
 
 A bundle is a signed zip: a manifest, one or more source definitions, and optionally a compiled Kotlin
 backend. MangaSnap downloads it, verifies the signature and digests, unpacks it under its own
@@ -17,19 +17,14 @@ A release build accepts only bundles signed by the first-party bundle key listed
 signer is shown with its computed fingerprint so it can be added deliberately. The screen also offers
 **Install from file** for a locally built `.msext`.
 
-During the migration the index still carries old transition APK URLs for phones running the previous
-app. Those APKs are service-only and remain signed with the MangaSnap release key. They are no longer
-the destination: new installs and upgrades use bundles, and the APK carrier is removed from the app
-once both sites have been proven.
-
 ## Releases
 
 One release per extension version:
 
 - tag `<source-id>-v<versionName>` (for example `ehentai-v1.9.2`)
 - asset `<source-id>-<versionName>.msext` (for example `ehentai-1.9.2.msext`)
-- release notes list the source id, `versionCode`/`versionName`, the SDK version it was built
-  against, and any definition change that alters what the app receives.
+- release notes list the source id, `versionName`, the SDK version it was built against, and any
+  definition change that alters what the app receives.
 
 Bundles are **not** committed to git history — attach them to the release. `.gitignore` enforces this
 so a build output cannot be committed by accident.
@@ -53,8 +48,7 @@ or the "Browse as" sheet → Manage extensions). Each entry carries:
 - `bundleUrl`, `bundleSha256`, `bundleSizeBytes` for the signed `.msext` the app installs;
 - `contractVersion` and `minHostVersion` before the app will bind it;
 - `sourceIds` for the stable `scraper://` identities;
-- `apkUrl`, `apkSha256`, `apkSizeBytes` only for the transition APK fallback;
-- legacy `sha256`/`sizeBytes` pointing at that APK so the previous app release still verifies it.
+- `name`, `versionName` and `summary` for display.
 
 The app verifies the bundle digest before it verifies the signature and unpacks nothing on a mismatch.
 The index and the release assets are public, so a phone fetches both without credentials. The default
@@ -70,7 +64,7 @@ is editable, so a mirror of this index works without an app update.
 
 - `MangaSnap` — app, nhentai API, library, reader, downloads, the bundle installer and client.
 - `mangasnap-extension-sdk` — the versioned contract, bundle format, in-app host and extension client.
-- `mangasnap-extension-template` — the per-site repository template.
+- `mangasnap-bundle-template` — the per-site repository template.
 - this repository — the built artifacts.
 
 Only this repository is public, because an installed app must fetch the index and the bundles without
