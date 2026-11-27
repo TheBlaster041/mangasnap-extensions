@@ -1,14 +1,21 @@
 {
-  "version": 1,
+  "version": 2,
   "extensions": [
     {
       "id": "ehentai",
       "name": "E-Hentai",
-      "versionCode": 16,
-      "versionName": "1.9.1",
+      "versionCode": 17,
+      "versionName": "1.9.2",
+      "bundleUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.9.2/ehentai-1.9.2.msext",
+      "bundleSha256": "aa8493dc0724bd0fd74529aff19c14b45553ab807fd5d90aa98acb79af5c5cef",
+      "bundleSizeBytes": 12117,
       "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/ehentai-v1.9.1/eh191.apk",
+      "apkSha256": "244c03e31765c4970ab7034c47b5937f652561322964a58f8157f8e760c5f891",
+      "apkSizeBytes": 1457610,
       "sha256": "244c03e31765c4970ab7034c47b5937f652561322964a58f8157f8e760c5f891",
       "sizeBytes": 1457610,
+      "contractVersion": 1,
+      "minHostVersion": 1,
       "summary": "Galleries, search, favorites, the complete tag directory and downloads from e-hentai.org.",
       "sourceIds": [
         "ehentai"
@@ -17,11 +24,18 @@
     {
       "id": "hentaifox",
       "name": "HentaiFox",
-      "versionCode": 18,
-      "versionName": "1.17",
+      "versionCode": 19,
+      "versionName": "1.18",
+      "bundleUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.18/hentaifox-1.18.msext",
+      "bundleSha256": "56949624608d8bd2c56675f47d64606767f3d66482c18e8e9c3fc6703d7b7f30",
+      "bundleSizeBytes": 27428,
       "apkUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.17/hf117.apk",
+      "apkSha256": "2705ee787aa8265333636c5d62c9e5231c9e31771fb7a56bd9f37e823d24c2fd",
+      "apkSizeBytes": 1599820,
       "sha256": "2705ee787aa8265333636c5d62c9e5231c9e31771fb7a56bd9f37e823d24c2fd",
       "sizeBytes": 1599820,
+      "contractVersion": 1,
+      "minHostVersion": 1,
       "summary": "Galleries, search, the ranked shelf and the full tag directory from hentaifox.com.",
       "sourceIds": [
         "hentaifox"

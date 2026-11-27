@@ -1,7 +1,8 @@
-# Build outputs are attachments, not history: an APK in git is unversioned binary weight that cannot
-# be diffed and cannot be revoked. Releases carry them.
+# Build outputs are attachments, not history: a signed carrier in git is unversioned binary weight
+# that cannot be diffed and cannot be revoked. Releases carry them.
 *.apk
 *.aab
+*.msext
 *.iml
 .idea/
 .gradle/
