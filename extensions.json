@@ -20,10 +20,10 @@
       "name": "HentaiFox",
       "versionName": "1.20.0",
       "bundleUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.20.0/hentaifox-1.20.0.msext",
-      "bundleSha256": "bde91a20cabbbe92fe55d5c93b6f65674a44c79b0c2fc3cf1b48164804d6bca7",
-      "bundleSizeBytes": 28551,
+      "bundleSha256": "dc5bba6d8ecf829b4ec2f5b2c0c99d0ef0cd521959233214e2e4ea1bd20e9e2e",
+      "bundleSizeBytes": 28658,
       "contractVersion": 1,
-      "minHostVersion": 3,
+      "minHostVersion": 4,
       "summary": "Galleries, search, the ranked shelf, tag orderings and the full tag directory from hentaifox.com.",
       "sourceIds": [
         "hentaifox"
