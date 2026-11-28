@@ -18,13 +18,13 @@
     {
       "id": "hentaifox",
       "name": "HentaiFox",
-      "versionName": "1.19.0",
-      "bundleUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.19.0/hentaifox-1.19.0.msext",
-      "bundleSha256": "db66c34624db6c7559fe8dc95f269e75b671f8cdfdcbe9402dc9f90d7e06fa97",
-      "bundleSizeBytes": 28678,
+      "versionName": "1.20.0",
+      "bundleUrl": "https://github.com/mangasnap/mangasnap-extensions/releases/download/hentaifox-v1.20.0/hentaifox-1.20.0.msext",
+      "bundleSha256": "84b67f5038376ac7146968680f16647c859052e10cbe796ef68ecc2226bae5c5",
+      "bundleSizeBytes": 28739,
       "contractVersion": 1,
-      "minHostVersion": 2,
-      "summary": "Galleries, search, the ranked shelf and the full tag directory from hentaifox.com.",
+      "minHostVersion": 3,
+      "summary": "Galleries, search, the ranked shelf, tag orderings and the full tag directory from hentaifox.com.",
       "sourceIds": [
         "hentaifox"
       ]
